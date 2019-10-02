@@ -1,2 +1,3 @@
 This is the first line.
 Happy birthday to you.
+This is the third line.(new_branch)
