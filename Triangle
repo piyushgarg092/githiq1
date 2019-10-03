@@ -1,13 +1,14 @@
 #include <stdio.h>
 main()
 {
-int m, i, j, k;
-m=5;
-for(i=1;i<=6;i++)
-{for(j=1;j<=m;j++)
-printf(" ");
-for(k=1;k<=i;k++)
-printf("*");
-m--;
-printf("\n");
-}}
+ int m, i, j, k;
+ m=5;
+ for(i=1;i<=6;i++)
+ { for(j=1;j<=m;j++)
+   printf(" ");
+   for(k=1;k<=i;k++)
+   printf("*");
+   m--;
+   printf("\n");
+ }
+}
